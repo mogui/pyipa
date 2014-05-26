@@ -1,5 +1,0 @@
-testify
-pep8
-pyflakes
-pylint
-docopt
