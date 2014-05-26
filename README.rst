@@ -1,11 +1,12 @@
 pyipa: a lib for parsing IPA files
-==================================
+----------------------------------
 
 This is a library to easily extract information from IPA files, and also a command line utility to do that
 
 Usage
 -----
 ::
+
     Usage:
     pyipa [-k --keys=<comma_list>] [-o --out=<json>] [--icons] IPA [FILE]
     pyipa --all [-o --out=<json>] [--icons] IPA [FILE]
