@@ -8,17 +8,21 @@ Usage
 ::
 
     Usage:
-    pyipa [-k --keys=<comma_list>] [-o --out=<json>] [--icons] IPA [FILE]
-    pyipa --all [-o --out=<json>] [--icons] IPA [FILE]
-    pyipa (-h | --help)
-    pyipa --version
+      pyipa manifest <IPA> <IPA_URL> <ICON_URL> [<MANIFEST_FILENAME>]
+      pyipa icons <IPA> [<OUTPUT_DIR>]
+      pyipa [-k --keys=<comma_list>] [-o --out=<json>] [--icons] <IPA>
+      pyipa --all [-o --out=<json>] <IPA>
+      pyipa (-h | --help)
+      pyipa --version
+
     Options:
-     -k --keys=<comma_list>  Keys to extracts in a comma separated list [default: CFBundleDisplayName,CFBundleIdentifier,CFBundleVersion]
-     -o --out=<json>         Type of output can be json,text [default: json]
-     --icons                 Extract icons in calling dir
-     --all                   Extracts ALL Info.plist keys ignoring -k option
-     -h --help               Show this screen.
-     --version               Show version.
+      -k --keys=<comma_list>  Keys to extracts in a comma separated list [default: CFBundleDisplayName,CFBundleIdentifier,CFBundleVersion]
+      -o --out=<json>         Type of output can be json,text [default: json]
+      --icons                 Extract icons in calling dir
+      --all                   Extracts ALL Info.plist keys ignoring -k option
+      -h --help               Show this screen.
+      --version               Show version.
+
 
 
 Contribute
